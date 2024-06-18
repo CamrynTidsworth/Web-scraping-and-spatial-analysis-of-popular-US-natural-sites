@@ -1,7 +1,13 @@
 # Web-scraping-and-spatial-analysis-of-popular-US-natural-sites
 A data adventure wherin I use python and QGIS to scrape and analyze spatial data on popular natural sites accross the United States.
 
+<img width="682" alt="Screenshot 2024-06-18 at 11 09 05 AM" src="https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/assets/167467192/341c1f0d-81bc-4829-8cfb-6de2045bc509">
+
+
+
+
 By: Camryn Tidsworth
+
 Last Updated: June 18, 2024
 
 For this project, I decided to scrape map coordinates off the internet to analyze natural sites, including National Parks and State Forests, in the US. While there are so many things I would love to do with this data, and so many additional data sources I’m tempted to bring in, I wanted to focus this analysis around a central question. So, imagine you are going on a trip and you want to find an area that has as many natural sites nearby as possible, as well as close proximity to an airport. Where should you go? We can answer this question with a few key steps. First, I’ll use Python to scrape the web and find a list of popular natural sites with coordinates. Then, I’ll upload this information to QGIS and do some spatial analysis to narrow in on the areas that fit our criteria. Finally, I'll explain my findings and make a data-driven reccomendation for your next outdoor vacation spot. 
@@ -12,7 +18,7 @@ For this project, I decided to scrape map coordinates off the internet to analyz
 3. Conclusion
 
 ## 1. Web Scraping
-The first step was to do a quick google search and find a website with the information I needed. I settled on [this site](https://www.latlong.net/category/national-parks-236-42.html) that includes a list of popular natural areas in the US with their longitude and latitude coordinates. I wrote the code using Python in Jupyter Notebook. You can view the code here or check out the screenshots below. Once I had my information in a Pandas dataframe, I downloaded it to my computer as a .csv file. 
+The first step was to do a quick google search and find a website with the information I needed. I settled on [this site](https://www.latlong.net/category/national-parks-236-42.html) that includes a list of popular natural areas in the US with their longitude and latitude coordinates. I wrote the code using Python in Jupyter Notebook. You can view the code [here](https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/blob/main/natural_sites_web_scraping.ipynb) or check out the screenshots below. Once I had my information in a Pandas dataframe, I downloaded it to my computer as a .csv file. 
 
 <img width="1212" alt="Screenshot 2024-06-18 at 12 16 39 PM" src="https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/assets/167467192/04d3b424-1dc0-42bc-88fe-2a2611cf7605">
 <img width="1213" alt="Screenshot 2024-06-18 at 12 16 54 PM" src="https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/assets/167467192/02cbc453-7660-4cd2-9ace-daca6528b7af">
@@ -74,4 +80,5 @@ Finally, what if you decide that you’d rather go somewhere as remote as possib
 <img width="976" alt="Screenshot 2024-06-18 at 11 07 41 AM" src="https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/assets/167467192/ede064af-5e47-4169-9408-07a1d0b94ae5">
 
 
-It was a pleasure to explore on of the many ways that geographic data can be used to shape practical decision making. Thank you for taking the time to check out this project, and always, constructive feedback is more than welcome. 
+
+It was a pleasure to explore one of the many ways that geographic data can be used to shape practical decision making. Thank you for taking the time to check out this project, and as always, constructive feedback is more than welcome. 
