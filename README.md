@@ -13,9 +13,9 @@ Last Updated: June 18, 2024
 For this project, I decided to scrape map coordinates off the internet to analyze natural sites, including National Parks and State Forests, in the US. While there are so many things I would love to do with this data, and so many additional data sources I’m tempted to bring in, I wanted to focus this analysis around a central question. So, imagine you are going on a trip and you want to find an area that has as many natural sites nearby as possible, as well as close proximity to an airport. Where should you go? We can answer this question with a few key steps. First, I’ll use Python to scrape the web and find a list of popular natural sites with coordinates. Then, I’ll upload this information to QGIS and do some spatial analysis to narrow in on the areas that fit our criteria. Finally, I'll explain my findings and make a data-driven reccomendation for your next outdoor vacation spot. 
 
 ### Section Links
-1. Web Scraping
-2. QGIS Analysis
-3. Conclusion
+1. [Web Scraping](https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/edit/main/README.md#1-web-scraping)
+2. [QGIS Analysis](https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/edit/main/README.md#2-qgis-analysis)
+3. [Conclusion](https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/edit/main/README.md#conclusion)
 
 ## 1. Web Scraping
 The first step was to do a quick google search and find a website with the information I needed. I settled on [this site](https://www.latlong.net/category/national-parks-236-42.html) that includes a list of popular natural areas in the US with their longitude and latitude coordinates. I wrote the code using Python in Jupyter Notebook. You can view the code [here](https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/blob/main/natural_sites_web_scraping.ipynb) or check out the screenshots below. Once I had my information in a Pandas dataframe, I downloaded it to my computer as a .csv file. 
