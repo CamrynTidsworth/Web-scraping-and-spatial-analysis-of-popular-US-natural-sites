@@ -1,5 +1,5 @@
 # Web-scraping-and-spatial-analysis-of-popular-US-natural-sites
-A data adventure wherin I use python and QGIS to scrape and analyze spatial data on popular natural sites accross the United States.
+A data adventure wherin I use python and QGIS to scrape and analyze spatial data on popular natural sites across the United States.
 
 <img width="682" alt="Screenshot 2024-06-18 at 11 09 05 AM" src="https://github.com/CamrynTidsworth/web-scraping-and-spatial-analysis-of-popular-US-natural-sites/assets/167467192/341c1f0d-81bc-4829-8cfb-6de2045bc509">
 
